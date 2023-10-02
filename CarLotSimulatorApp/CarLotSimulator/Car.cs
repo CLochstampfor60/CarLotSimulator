@@ -12,22 +12,23 @@ namespace CarLotSimulator
         public Car() { }
 
         //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
-        /*        public Car(
-                    int year,
-                    string make,
-                    string model,
-                    string engineNoise,
-                    string honkNoise,
-                    bool isDriveable
-                    ) {
-                    Year = year;
-                    Make = make;
-                    Model = model;
-                    EngineNoise = engineNoise;
-                    HonkNoise = honkNoise;
-                    IsDriveable = isDriveable;
+        public Car(
+            int year,
+            string make,
+            string model,
+            string engineNoise,
+            string honkNoise,
+            bool isDriveable
+            )
+        {
+            Year = year;
+            Make = make;
+            Model = model;
+            EngineNoise = engineNoise;
+            HonkNoise = honkNoise;
+            IsDriveable = isDriveable;
 
-                }*/
+        }
 
         public int Year { get; set; }
         public string Make { get; set; }
