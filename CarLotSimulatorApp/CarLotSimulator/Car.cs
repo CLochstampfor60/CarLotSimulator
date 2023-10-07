@@ -9,7 +9,9 @@ namespace CarLotSimulator
     public class Car
     {
         //Create a seperate class file called Car
-        public Car() { }
+        public Car() {
+            CarLot.numberOfCars++;
+        }
 
         //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
         public Car(

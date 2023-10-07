@@ -80,7 +80,9 @@ lot.carList.Add(midSize);
 //At the end iterate through the list printing each of car's Year, Make, and Model to the console
 
 Console.WriteLine("\n The following cars were added to the lot:");
-foreach (var car in lot.carList)
+/*foreach (var car in lot.carList)
 {
     Console.WriteLine($"{car.Year}, {car.Make} {car.Model} ");
-}
+}*/
+
+Console.WriteLine($"{CarLot.numberOfCars}");
